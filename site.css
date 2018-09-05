@@ -1,0 +1,158 @@
+body {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.spread {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.spread-cover {
+  background-color: #fff;
+  color: #fff;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.spread-cover h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2.441em;
+  line-height: 1em;
+}
+
+.spread-cover h2 {
+  margin: 0;
+  font-size: 1.953em;
+}
+
+.spread-cover .highlight {
+  display: inline-block;
+  background-color: #0f7c11;
+}
+
+.spread-cover header {
+  position: absolute;
+  left: 2em;
+  top: 2em;
+}
+
+.spread-cover figure {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 50vh;
+}
+
+.spread-epigraph {
+  background-color: #0f7c11;
+  color: #fff;
+  justify-content: flex-start;
+}
+
+.spread-epigraph blockquote {
+  display: block;
+  margin: 2em;
+  padding: 0;
+}
+
+.spread-epigraph p {
+  font-size: 1.563em;
+  margin: 0;
+}
+
+.spread-epigraph cite {
+  font-style: normal;
+}
+
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  width: 48vw;
+  background-color: #fff;
+  color: #0f7c11;
+  margin: 0 2em;
+  padding: 0;
+}
+
+.text h2 {
+  font-size: 1.563em;
+  margin: 1.563em 0 0 0;
+}
+
+.text a {
+  color: #f5843e;
+  font-weight: bold;
+}
+
+.text a:hover {
+  color: #AF6131;
+}
+
+.panel {
+  width: 36vw;
+  padding: 2em;
+}
+
+.panel aside {
+  background-color: #0f7c11;
+  color: #fff;
+  padding: 1em;
+}
+
+.panel h2 {
+  font-size: 2.441em;
+  margin: 0;
+}
+
+.panel p {
+  font-size: 1.563em;
+  margin: 0;
+}
+
+.panel p.note {
+  margin-top: 0.8em;
+  font-size: 1em;
+}
+
+.blocks {
+  width: 100%;
+  height: 2.441em;
+  display: flex;
+}
+
+.blocks span {
+  display: block;
+  width: 25%;
+  height: 100%;
+  background-color: #0f7c11;
+}
+
+.blocks span:nth-of-type(2) {
+  background-color: #529546;
+}
+
+.blocks span:nth-of-type(3) {
+  background-color: #80ae74;
+}
+
+.blocks span:nth-of-type(4) {
+  background-color: #acc8a4;
+}
+
+.tweet-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.moment-grid blockquote {
+  display: block;
+  width: 180px;
+}
