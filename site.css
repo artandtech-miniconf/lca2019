@@ -147,12 +147,36 @@ body {
   background-color: #acc8a4;
 }
 
-.tweet-grid {
-  display: flex;
-  flex-wrap: wrap;
+.highlights {
+  margin-top: 1em;
+  border-top: 0.512em solid #0f7c11;
 }
 
-.moment-grid blockquote {
-  display: block;
-  width: 180px;
+.highlights h2 {
+  margin-top: 1em;
+}
+
+.highlights .blocks span {
+  transform: skewY(-45deg);
+  transform-origin: 0;
+  height: 1.563em;
+}
+
+.highlights-row {
+  width: 100%;
+  display: flex;
+}
+
+footer a {
+  color: #0f7c11;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-right: 1.563em;
 }
