@@ -75,7 +75,7 @@ body {
 }
 
 .text {
-  width: 48vw;
+  width: 100%;
   background-color: #fff;
   color: #0f7c11;
   margin: 0 2em;
@@ -97,8 +97,18 @@ body {
 }
 
 .panel {
-  width: 36vw;
+  width: 100%;
   padding: 2em;
+}
+
+@media(min-width: 900px) {
+  .text {
+    width: 48vw;
+  }
+
+  .panel {
+    width: 36vw;
+  }
 }
 
 .panel aside {
@@ -152,19 +162,42 @@ body {
   border-top: 0.512em solid #0f7c11;
 }
 
-.highlights h2 {
-  margin-top: 1em;
+@media(min-width: 900px) {
+  .highlights h2 {
+    margin-top: 1em;
+  }
 }
 
-.highlights .blocks span {
-  transform: skewY(-45deg);
-  transform-origin: 0;
-  height: 1.563em;
+.highlights .panel {
+  display: none;
+}
+
+@media(min-width: 900px) {
+  .highlights .panel {
+    display: block;
+  }
+
+  .highlights .blocks span {
+    transform: skewY(-45deg);
+    transform-origin: 0;
+    height: 1.563em;
+  }
 }
 
 .highlights-row {
   width: 100%;
   display: flex;
+}
+
+@media(max-width: 640px) {
+  .highlights-row {
+    flex-wrap: wrap;
+  }
+
+  .twitter-tweet {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 footer a {
