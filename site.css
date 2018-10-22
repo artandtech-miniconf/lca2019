@@ -96,6 +96,10 @@ body {
   color: #AF6131;
 }
 
+.text time {
+  font-weight: bold;
+}
+
 .panel {
   width: 100%;
   padding: 2em;
